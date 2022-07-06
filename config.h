@@ -69,5 +69,6 @@ static const struct arg args[] = {
 	{ ram_perc, "| Mem: %s%%", NULL  },
 	{ netspeed_rx, "|  %sB/s | ", "ens33"  },
 	{ run_command, " %4s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ battery_perc, "Bat: %s%% |", "BAT1" },
 	{ datetime, "%s","%a %d-%b %T" },
 };
