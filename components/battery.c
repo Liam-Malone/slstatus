@@ -50,7 +50,7 @@
 			char *state;
 			char *symbol;
 		} map[] = {
-			{ "Charging",    "+" },
+			{ "Charging",    "" },
 			{ "Discharging", "-" },
 			{ "Full",        "o" },
 		};
