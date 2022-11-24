@@ -69,7 +69,7 @@ static const struct arg args[] = {
 	{ cpu_perc, "| %s%%", NULL },
 	{ ram_perc, "| %s%%", NULL  },
 	{ netspeed_rx, "| %sB/s|", "eno1"  },
-	{ run_command, " %4s|", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ run_command, " %4s%%|", "pamixer --get-volume" },
 	//{ battery_state, " %s", "BAT1"},
 	//{ battery_perc, "%s%%|", "BAT1"},
 	{ datetime, "%s"," %a %d-%b  %T" },
